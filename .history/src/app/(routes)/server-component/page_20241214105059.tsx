@@ -8,7 +8,7 @@ async function ServerComponent() {
   console.log("User Data: ",userData);
 
   return (
-    <div className="grid grid-cols  md:grid-cols-2 p-5 gap-6 ">
+    <div className="grid grid-cols  md:grid-cols-2 p-5 gap- ">
       {userData.map((user, index) => (
         <ul
           key={index}
