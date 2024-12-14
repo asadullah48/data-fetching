@@ -28,7 +28,7 @@ function ClientComponent() {
       {users.map((user, index) => (
         <ul
           key={index}
-          className="bg-blue-700 flex flex-col gap-3 p-5 item-center"
+          className="bg-blue-300 flex flex-col gap-3 p-5 item-center"
         >
           <li>User ID: {user.id}</li>
           <li>User ID: {user.name}</li>

@@ -7,7 +7,7 @@ export interface UserType {
 export const data:UserType[]=[
    {
     id:1,
-    name:"Syed Ifrahim",
+    name:"Syed Ifrah",
     dob:13
    },
    {
